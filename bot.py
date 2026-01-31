@@ -1,4 +1,3 @@
-import requests
 from vkbottle.bot import Bot, Message
 from config import TOKEN
 import random
@@ -60,5 +59,6 @@ async def help_handler(message: Message):
         "/quote_api - Факт Api\n"
         "/catfact - Факт ро котиков Api\n"
     )
+
 
 bot.run_forever()
